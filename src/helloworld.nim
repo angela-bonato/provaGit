@@ -2,4 +2,8 @@
 # exports the main API in this file. Note that you cannot rename this file
 # but you can remove it if you wish.
 
-echo "Hello world!"
+import std/strutils
+import std/os
+
+var name=commandLineParams()[0]
+echo "Hello ", name, "!"
