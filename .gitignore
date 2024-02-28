@@ -5,6 +5,7 @@
 nimcache/
 nimblecache/
 htmldocs/
+helloworld
 helloworld.o
 
 # End of https://www.toptal.com/developers/gitignore/api/nim
