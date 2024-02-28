@@ -5,5 +5,9 @@
 import std/strutils
 import std/os
 
-var name=commandLineParams()[0]
-echo "Hello ", name, "!"
+if paramCount()!=0:
+  var name=commandLineParams()[0]
+  echo "Hello ", name, "!"
+else:
+  echo "Hello Unknown!"
+
