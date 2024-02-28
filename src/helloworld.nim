@@ -2,4 +2,4 @@
 # exports the main API in this file. Note that you cannot rename this file
 # but you can remove it if you wish.
 
-echo "Hello worl!"
+echo "Hello world!"
